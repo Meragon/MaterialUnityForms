@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectGuid>{9BB47AD0-A299-120A-BC64-A7DEA8C43C9A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+    <LangVersion>4</LangVersion>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_0;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity 5.3.0/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity 5.3.0/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Unity 5.3.0\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\Unity 5.3.0\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\Unity 5.3.0\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Unity 5.3.0\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.Linq.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\MaterialExample.cs" />
+    <Compile Include="Assets\MaterialUI\FormMaterial.cs" />
+    <Compile Include="Assets\MaterialUI\MaterialCheckbox.cs" />
+    <Compile Include="Assets\MaterialUI\MaterialColors.cs" />
+    <Compile Include="Assets\MaterialUI\MaterialControl.cs" />
+    <Compile Include="Assets\MaterialUI\MaterialFlatButton.cs" />
+    <Compile Include="Assets\MaterialUI\MaterialRaisedButton.cs" />
+    <Compile Include="Assets\MaterialUI\MaterialRipple.cs" />
+    <Compile Include="Assets\MaterialUI\MaterialTextField.cs" />
+    <Compile Include="Assets\MaterialUI\MaterialUISettings.cs" />
+    <Compile Include="Assets\MaterialUI\Utils.cs" />
+    <Compile Include="Assets\Properties\ImageNames.cs" />
+    <Compile Include="Assets\Properties\ResourceCollection.cs" />
+    <Compile Include="Assets\Properties\ResourceManager.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\BitmapFont.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\BitmapLabel.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\BitmapText.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\ColorPicker.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\ColorPickerForm.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\Highcharts\Axis.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\Highcharts\AxisCollection.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\Highcharts\AxisTitle.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\Highcharts\Chart.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\Highcharts\DataCollection.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\Highcharts\Highchart.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\Highcharts\HighchartTitle.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\Highcharts\HightchartSubtitle.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\Highcharts\Legend.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\Highcharts\LegendButton.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\Highcharts\LegendItemStyle.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\Highcharts\PlotOptions.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\Highcharts\Series.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\Highcharts\SeriesCollection.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\Highcharts\XAxis.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\Highcharts\YAxis.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\Highcharts\ZoomTypes.cs" />
+    <Compile Include="Assets\Unity-WinForms\Controls\TableView.cs" />
+    <Compile Include="Assets\Unity-WinForms\Core\API\IApiGraphics.cs" />
+    <Compile Include="Assets\Unity-WinForms\Core\API\IApiInput.cs" />
+    <Compile Include="Assets\Unity-WinForms\Core\API\IApiSystem.cs" />
+    <Compile Include="Assets\Unity-WinForms\Core\API\IApiTiming.cs" />
+    <Compile Include="Assets\Unity-WinForms\Core\API\ITexture.cs" />
+    <Compile Include="Assets\Unity-WinForms\Core\ApiHolder.cs" />
+    <Compile Include="Assets\Unity-WinForms\Core\ApplicationResources.cs" />
+    <Compile Include="Assets\Unity-WinForms\Core\KeyboardHook.cs" />
+    <Compile Include="Assets\Unity-WinForms\Core\MouseHook.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\ControlsExtensions.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\FormExamples.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\BaseExamplePanel.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelButton.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelChart.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelCheckBox.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelColorPicker.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelComboBox.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelDateTimePicker.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelFileDialog.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelFontDialog.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelForm.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelGroupBox.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelLabel.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelLinkLabel.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelMenuStrip.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelMonthCalendar.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelNumericUpDown.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelPanel.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelPictureBox.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelProgressBar.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelRadioButton.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelScrollBar.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelSplitContainer.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelTabControl.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelTableView.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelTableViewLazy.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelTrackBar.cs" />
+    <Compile Include="Assets\Unity-WinForms\Examples\Panels\PanelTreeView.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\Bitmap.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\Brush.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\Brushes.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\Color.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\ColorTranslator.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\ContentAlignment.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\Drawing2D\DashStyle.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\Font.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\Graphics.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\IDeviceContext.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\Image.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\KnownColor.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\Pen.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\Pens.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\Point.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\PointF.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\Rectangle.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\RectangleF.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\Size.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\SizeF.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\SolidBrush.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\StringFormat.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\SystemBrushes.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\SystemColors.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\SystemFonts.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Drawing\SystemPens.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\AnchorStyles.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\AppGdiImages.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\Application.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\AutoCompleteMode.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\AutoCompleteSource.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\BaseCollection.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\Border3DSide.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\Border3DStyle.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\BorderStyle.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\BoundsSpecified.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\Button.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ButtonBase.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ButtonBorderStyle.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ButtonState.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\CheckBox.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\CheckState.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ComboBox.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ComboBoxStyle.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ContainerControl.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ContextMenuStrip.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\Control.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ControlEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ControlPaint.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ControlStyles.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\CreateParams.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\Cursor.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\Cursors.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\DataFormats.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\DataObject.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\DateRangeEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\DateRangeEventHandler.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\DateTimePicker.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\DialogResult.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\DragEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\DragEventHandler.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\DrawItemEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\DrawItemEventHandler.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\DrawItemState.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\DrawMode.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\DrawTreeNodeEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\DrawTreeNodeEventHandler.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\FileDialog.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\FlatStyle.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\FontDialog.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\Form.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\FormBorderStyle.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\FormClosedEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\FormClosedEventHandler.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\FormClosingEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\FormClosingEventHandler.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\FormCollection.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\FormStartPosition.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\FormWindowState.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\GroupBox.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\HScrollBar.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\HScrollProperties.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\HorizontalAlignment.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\IButtonControl.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\IContainerControl.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\IDataObject.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\IDropTarget.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\IResizableControl.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ImageLayout.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ImageList.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\InputLanguage.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ItemDragEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ItemDragEventHandler.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\KeyEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\KeyEventHandler.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\KeyPressEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\KeyPressEventHandler.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\Keys.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\Label.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\LayoutEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\LayoutEventHandler.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\LinkBehavior.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\LinkLabel.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\LinkLabelLinkClickedEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\LinkLabelLinkClickedEventHandler.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\LinkState.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ListBox.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ListControl.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ListSortDirection.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\MdiClient.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\MenuStrip.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\MessageBox.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\MonthCalendar.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\MouseEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\MouseEventHandler.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\NativeMethods.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\NumericUpDown.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\OpenFileDialog.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\Orientation.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\Padding.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\PaintEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\PaintEventHandler.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\Panel.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\PictureBox.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ProgressBar.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ProgressBarStyle.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\RadioButton.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\RepeatButton.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ResizeButton.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\RightToLeft.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\SafeNativeMethods.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\SaveFileDialog.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\Screen.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ScrollBar.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ScrollBars.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ScrollEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ScrollEventHandler.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ScrollEventType.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ScrollOrientation.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ScrollProperties.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ScrollableControl.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\SizeGripStyle.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\SplitContainer.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\SplitterPanel.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\SystemInformation.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\TabAlignment.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\TabControl.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\TabControlCancelEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\TabControlEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\TabPage.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\TextBox.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\TextBoxBase.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\Timer.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ToolStrip.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ToolStripButton.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ToolStripDropDown.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ToolStripDropDownDirection.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ToolStripDropDownItem.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ToolStripDropDownMenu.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ToolStripItem.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ToolStripItemClickedEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ToolStripItemClickedEventHandler.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ToolStripItemCollection.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ToolStripLabel.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ToolStripMenuItem.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ToolStripSeparator.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\ToolTip.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\TrackBar.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\TreeNode.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\TreeNodeCollection.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\TreeNodeMouseClickEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\TreeNodeMouseClickEventHandler.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\TreeNodeMouseHoverEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\TreeNodeStates.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\TreeView.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\TreeViewAction.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\TreeViewEventArgs.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\TreeViewEventHandler.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\UserControl.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\VScrollBar.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\VScrollProperties.cs" />
+    <Compile Include="Assets\Unity-WinForms\System\Windows\Forms\WindowsFormsUtils.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\API\UnityGdi.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\API\UnityGdiHelper.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\API\UnityGdiSprite.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\API\UnityGdiTexture.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\API\UnityInput.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\API\UnitySystem.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\API\UnityTiming.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\AppResources.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\External\TextureScale.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\External\TextureScaler.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\UnitWinFormsExamples.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\UnityKeyTranslator.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\UnityWinForms.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\Views\AppControlList.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\Views\ControlInspector.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\Views\Editor.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\Views\EditorMenu.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\Views\EditorValue.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\Views\IObjectDesigner.cs" />
+    <Compile Include="Assets\Unity-WinForms\Unity\Views\ObjectDesigner.cs" />
+    <Compile Include="Assets\Unity-WinForms\Utility\ColorTranslatorEx.cs" />
+    <Compile Include="Assets\Unity-WinForms\Utility\ControlHelper.cs" />
+    <Compile Include="Assets\Unity-WinForms\Utility\DrawingHelper.cs" />
+    <Compile Include="Assets\Unity-WinForms\Utility\KeyHelper.cs" />
+    <Compile Include="Assets\Unity-WinForms\Utility\MathHelper.cs" />
+    <Compile Include="Assets\Unity-WinForms\Utility\swfHelper.cs" />
+    <None Include="Assets\Unity-WinForms\LICENSE.txt" />
+    <None Include="Assets\Unity-WinForms\Controls\Highcharts\gradientFill.shader" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity 5.3.0/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity 5.3.0/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
